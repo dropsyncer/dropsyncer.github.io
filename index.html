@@ -113,33 +113,6 @@ a                   {color:#e7e7e7;}
 </head>
 <body>
 
-<div id="fb-root"></div>
-<script src="path/to/other/js/libraries/jquery.js"></script>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '202872243146495', // App ID
-      channelUrl : '//dropsyncer.com/channel.html', // Channel File
-      status     : true, // check login status
-      cookie     : true, // enable cookies to allow the server to access the session
-      oauth      : true, // enable OAuth 2.0
-      xfbml      : true  // parse XFBML
-    });
- 
-    // Additional initialization code here
-  };
- 
-  // Load the SDK Asynchronously
-  (function(d){
-     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
-     js = d.createElement('script'); js.id = id; js.async = true;
-     js.src = "//connect.facebook.net/en_US/all.js";
-     d.getElementsByTagName('head')[0].appendChild(js);
-   }(document));
-</script>
-
-
-
 <div class='content'>
 	<p style='font-size:0.1px;color: #0d0d0d'>multiple dropbox accounts</p>
 	
